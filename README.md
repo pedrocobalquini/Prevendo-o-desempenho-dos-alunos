@@ -41,14 +41,31 @@ O terceiro dos quatro modelos utilizados no projeto. O valor do max_depth foi al
 O último dos quatro modelos utilizados no projeto. O valor do n_neighbors foi alterado para 6 para conseguir o melhor resultado deste modelo. Como resultado, o Coeficiente de determinação foi de 97.98% e o Mean Squared Error (MSE) foi de 5.53%.
 
 # 4 - Conclusão
-
-* MLPRegressor, Random Forest e KNN apresentaram coeficientes de determinação próximos a 98%, indicando uma forte capacidade de explicação da variabilidade dos dados pelo modelo.
-
-* O Random Forest teve o menor MSE (1.58), seguido de perto pelo MLPRegressor (2.14), sugerindo que esses modelos cometem menos erros ao prever os valores do conjunto de dados.
-
-* KNN também se destacou com um MSE de 5.53, que, embora maior que os dos modelos mencionados, ainda é consideravelmente menor que o da Regressão Linear.
-
-* A Regressão Linear apresentou o menor coeficiente de determinação (74.52%) e o maior MSE (19.91), indicando que esse modelo é menos adequado para capturar a complexidade dos dados em comparação com os outros métodos.
+<body>
+    <table>
+        <tr>
+            <th>Modelos</th>
+            <th>Regressão Linear</th>
+            <th>MLPRegressor</th>
+            <th>Random Forest</th>
+            <th>KNN</th>
+        </tr>
+        <tr>
+            <td>Coeficiente de determinação</td>
+            <td>74.52%</td>
+            <td>97.27%</td>
+            <td>97.98%</td>
+            <td>97.98%</td>
+        </tr>
+        <tr>
+            <td>Mean Squared Error (MSE)</td>
+            <td>19.91%</td>
+            <td>2.14%</td>
+            <td>1.58%</td>
+            <td>5.53%</td>
+        </tr>
+    </table>
+</body>
 
 
 
